@@ -1,2 +1,7 @@
-# MySQL-Server-Honeypot-Project
-Created an internet facing Windows 11 Machine and installed MySQL server with fake customer data and insecure configurations.
+# MySQL Server Honeypot
+
+## Project Overview
+
+In this project I created an internet facing Windows 11 VM in Microsoft Azure and installed MySQL Server on it.
+
+
