@@ -171,38 +171,9 @@ The entire attack completed in approximately **two minutes**, indicating the use
 
 ---
 
-# Repository Structure
-
-```
-.
-├── README.md
-├── reports
-│   └── MySQL_Ransomware_Incident_Report.md
-├── queries
-│   ├── InitialAccess.kql
-│   ├── Timeline.kql
-│   ├── MySQLAudit.kql
-│   └── DeviceNetworkEvents.kql
-├── screenshots
-├── architecture
-└── docs
-```
-
----
-
 # Lessons Learned
 
 This project demonstrates how quickly exposed database services can be compromised by automated ransomware campaigns. Correlating MySQL audit logs with endpoint and network telemetry enabled reconstruction of the complete attack lifecycle and highlighted the importance of centralized logging, least-privilege administration, and immutable backups. The investigation also reinforced the value of proactive detection engineering for identifying destructive SQL activity before significant impact occurs.
-
----
-
-# Future Improvements
-
-- Add automated Sentinel Analytics Rules
-- Create Sentinel Workbooks for visualization
-- Develop SOAR playbooks for automated response
-- Deploy additional database honeypots (PostgreSQL, MSSQL)
-- Integrate threat intelligence enrichment
 
 ---
 
