@@ -106,7 +106,7 @@ Telemetry from the operating system, network connections, and MySQL audit logs w
 
 # Investigation Summary
 
-**[Full Incident Report](https://github.com/SamuelSor/MySQL-Server-Honeypot-Project/blob/main/MySQL-Ransomware-Incident-Report.md)
+**[Full Incident Report](https://github.com/SamuelSor/MySQL-Server-Honeypot-Project/blob/main/MySQL-Ransomware-Incident-Report.md)**
 
 The investigation identified a successful ransomware attack against the exposed MySQL server.
 
@@ -129,15 +129,15 @@ The entire attack completed in approximately **two minutes**, indicating the use
 
 | Time (UTC) | Event |
 |------------|-------|
-| Failed root authentication observed |
-| Successful remote root login |
-| Database enumeration |
-| Foreign key removal |
-| Multiple DROP TABLE commands |
-| Ransom note deployment |
-| Binary log deletion |
-| Root privilege revocation |
-| Database shutdown |
+| 2026-07-18 14:58:01 | Failed root authentication observed |
+| 2026-07-19 02:10:29 | Successful remote root login |
+| 2026-07-19 02:10:36 | Database enumeration |
+| 2026-07-19 02:10:41 | Foreign key removal |
+| 2026-07-19 02:10:42 | Multiple DROP TABLE commands |
+| 2026-07-19 02:10:42 | Ransom note deployment |
+| 2026-07-19 02:12:06 | Binary log deletion |
+| 2026-07-19 02:12:07 | Root privilege revocation |
+| 2026-07-19 02:12:07 | Database shutdown |
 
 ---
 
