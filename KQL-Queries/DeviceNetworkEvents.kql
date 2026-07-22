@@ -1,5 +1,0 @@
-DeviceNetworkEvents
-| where TimeGenerated between ((datetime("2026-07-19T02:10:29.638707Z")- 2m) ..(datetime("2026-07-19T02:12:07.816657Z") + 2m) )
-| where RemoteIP == "64.89.163.178"
-| where DeviceName == "corp-db01-int01"
-| project TimeGenerated, DeviceName, ActionType, RemoteIP, LocalPort, RemotePort, LocalIP, Protocol, InitiatingProcessParentFileName, InitiatingProcessCommandLine, InitiatingProcessFolderPath

@@ -1,4 +1,0 @@
-MySQLAudit_CL
-| where TimeGenerated between ((datetime("2026-07-19T02:10:29.638707Z")-2m) .. (datetime("2026-07-19T02:12:07.816657Z") + 5m) )
-| where _ResourceId endswith "corp-db01-int01"
-| sort by TimeGenerated desc 
