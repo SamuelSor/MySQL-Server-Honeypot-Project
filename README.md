@@ -106,6 +106,8 @@ Telemetry from the operating system, network connections, and MySQL audit logs w
 
 # Investigation Summary
 
+**[Full Incident Report](https://github.com/SamuelSor/MySQL-Server-Honeypot-Project/blob/main/MySQL-Ransomware-Incident-Report.md)
+
 The investigation identified a successful ransomware attack against the exposed MySQL server.
 
 The attacker:
