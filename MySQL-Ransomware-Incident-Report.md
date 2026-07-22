@@ -15,7 +15,7 @@ Analysis of MySQL audit logs, Microsoft Defender XDR telemetry, and Microsoft Se
 | Incident Type | MySQL Database Ransomware |
 | Severity | Critical |
 | Affected Host | corp-db01-int01 |
-| Operating System | Ubuntu Server |
+| Operating System | Windows 11 |
 | Database | MySQL |
 | Initial Access | Remote MySQL Authentication |
 | Duration | ~2 Minutes |
